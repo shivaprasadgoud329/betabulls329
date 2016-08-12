@@ -1,0 +1,142 @@
+<html>
+<head>
+<title>Dashboard</title>
+ 
+   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+   
+   <link rel="stylesheet" type="text/css" href="css/custom.css">
+   <link rel="script" type="text/javascript" href="javascript/javascript.js">
+   <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="main-header">
+ <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-6">
+			<div class="logo">
+				<img src="images/betabulls.png" class="img-responsive"/>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<ul class="social-network social-circle">
+                        <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+		</div>
+	</div>
+ </div>
+ </div>
+ 
+ 
+ <div class="nav-back">
+ <div class="navbar-wrapper">
+    <div class="container-fluid">
+        <nav class="navbar nav-bottom">
+            <div class="">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><!--div class="logo">
+				<img src="images/betabulls.png" class="img-responsive"/>
+				</div--></a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#" class="">Dashboard</a></li>
+                        <li class=" dropdown">
+                            <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Employees <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class=" dropdown">
+                                    <!--<a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">List Employees</a>-->
+                                
+                                <li><a href="addemployees.html">Add Employee</a></li>
+								 <li><a href="manageemployees.html">Manage Employee</a></li>
+								 <li><a href="listemployees.html">List of Employees </a></li>
+								 
+                            </ul>
+							</li>
+                            
+                        <!--li><a href="#">Manage Employees</a></li-->
+                        <li class=" dropdown">
+						<a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Leaves <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="addleaves.html">Add Leaves</a></li>
+                                <li><a href="manageleaves.html">Manage Leaves</a></li>
+								  <li><a href="listleaveposition.html">List Leave Position</a></li>
+                            </ul>
+                        </li>
+                        <li class=" dropdown"><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Time Sheet<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="addattendence.html">Add Attendence</a></li>
+                                <li><a href="manageattendence.html">Manage Attendence</a></li>
+                                <li><a href="listattendence.html">List Attendence</a></li>
+                            </ul>
+                        </li>
+                        <li class=" down"><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Reports<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="extraleaves.html">Extra Leaves Taken</a></li>
+                                
+								<li><a href="reportonabsentees.html">Report on Absentees</a></li>
+								<li><a href="reportonbelow9hrs.html">Report on Below 9Hours</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav pull-right">
+						
+                        <li class=" dropdown"><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Signed in as  <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Change Password</a></li>
+                                <li><a href="#">My Profile</a></li>
+								
+								<li><a href="login.html">Logout</a></li>
+                            </ul>
+                        </li>
+                        <li class="profileicon-border"><img src="images/a.jpg" class="img-responsive profileicon"></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+</div>
+<div class="container">
+	<div class="row">
+	
+		<div class="col-md-3">
+		<div id="coll"></div>
+	<img class="editimage" src="images/a.jpg" class="img-responsive coll">
+	<h4 class="over">OverView</h4>
+	<h4 class="editinfo">Edit Profile Information</h4>
+		</div>
+		
+		
+		<div class="col-md-8">
+		<div id="col">
+		<div class="profile"><h3>PROFILE INFORMATION</h3></div>
+		<div class="pf">
+		<p>User Name:</p>
+		
+		<p>First Name:</p>
+		<p>Last Name:</p>
+		<p>Email Address:</p>
+		</div>
+		
+		</div>
+		</div>
+		</div>
+		</div>
+		<div class="fdown">
+	<p>&#169; 2014 BetaBulls *  Privacy Policy</p>
+<div>
+</body>
+</html>
